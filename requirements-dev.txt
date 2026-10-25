@@ -1,0 +1,3 @@
+-r requirements.txt
+pytest
+scikit-image   # only used to build a synthetic test video

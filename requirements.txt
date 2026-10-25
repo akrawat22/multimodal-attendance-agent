@@ -1,0 +1,12 @@
+streamlit>=1.50
+# OpenCV 5 removed the Haar cascade classifier used for face detection -> stay on 4.x
+opencv-python-headless>=4.9,<5
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.8
+librosa>=0.10
+soundfile>=0.12
+scipy>=1.11
+tabulate>=0.9
+# bundled ffmpeg binary: lets the app read the audio track of mp4/mov/mkv files
+imageio-ffmpeg>=0.5
